@@ -23,6 +23,9 @@ Created on Thu Oct 25 16:16:11 2018
 #print(cmath.sqrt(-1))
 
 #print((1+1j)*(9+4j))
-
-name = raw_input('what is your name?')
-print('hello,'+name+'!')
+#2.0
+#name = raw_input('what is your name?')
+#print('hello,'+name+'!')
+# python3.0版本后用input替换了raw_input
+#name = input('what is your name?')
+#print('hello,'+name+'!')
