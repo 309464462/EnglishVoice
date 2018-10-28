@@ -29,3 +29,15 @@ Created on Thu Oct 25 16:16:11 2018
 # python3.0版本后用input替换了raw_input
 #name = input('what is your name?')
 #print('hello,'+name+'!')
+
+#print("""Roses are red
+#      Violets arre blue
+#      I just printed multiple lines
+#      And you did too!""")
+
+#print("Roses are red \n Violets arre blue\n I just printed multiple lines\n And you did too!")
+
+#print("hello","who")
+#print("hello %s"%("one"))
+#print("%s %s %10s" % ("one","two","three"))
+print("%-10s%-10s%s" % ("one","two","1234567890123456789"))
