@@ -40,4 +40,5 @@ Created on Thu Oct 25 16:16:11 2018
 #print("hello","who")
 #print("hello %s"%("one"))
 #print("%s %s %10s" % ("one","two","three"))
-print("%-10s%-10s%s" % ("one","two","1234567890123456789"))
+#print("%-10s%-10s%s" % ("one","two","1234567890123456789"))
+#one       two       1234567890123456789
