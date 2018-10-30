@@ -49,16 +49,27 @@ Created on Tue Oct 30 12:18:02 2018
 #    while i > 0:
 #        print("index :%d" %(i))
 #        i = i -1
+#
+#for food in ("copyright", "credits","license","apple"):
+##    if food == "apple":
+#    print("food:"+food[0:5])
+#    if food[0:5] == "apple":
+#        break
+#    else:
+#        print(food)
 
-for food in ("copyright", "credits","license","apple"):
-    if food == "apple":
-        break
-    else:
-        print(food)
+#4.7
 
-        
-            
+#wednesday_breakfasts_sold = {"apple":10,"cherry":20,"pear":12}
+#try:
+#    if wednesday_breakfasts_sold["water"] > 3:
+#        print("sure,  let's have the water");
+#except (KeyError) as result:
+#        print("woah! there is no %s" % result)
+#except (TypeError):
+#        pass
     
+
 
 
 
