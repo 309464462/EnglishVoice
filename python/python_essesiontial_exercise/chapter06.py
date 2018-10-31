@@ -58,7 +58,7 @@ class Fridge:
         Raises a TypeError if food_name is not a string.
         """
         if type(food_name) != type(""):
-            raise TypeError, "add_one requires a string, given a %s" % type(food_name)
+            raise TypeError("add_one requires a string, given a %s" % type(food_name))
         else:
             self.__add_multi(food_name, 1)
 
