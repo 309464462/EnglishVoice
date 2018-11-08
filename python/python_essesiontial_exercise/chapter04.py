@@ -50,13 +50,13 @@ Created on Tue Oct 30 12:18:02 2018
 #        print("index :%d" %(i))
 #        i = i -1
 #
-#for food in ("copyright", "credits","license","apple"):
-##    if food == "apple":
-#    print("food:"+food[0:5])
-#    if food[0:5] == "apple":
-#        break
-#    else:
-#        print(food)
+for food in ("copyright", "credits","license","apple"):
+#    if food == "apple":
+   print("food:"+food[0:5])
+   if food[0:5] == "apple":
+       break
+   else:
+       print(food)
 
 #4.7
 
