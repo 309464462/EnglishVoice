@@ -3,18 +3,18 @@ import unittest
 class ArithTest (unittest.TestCase):
     def runTest (self):
         """ Test addition and succeed. """
-        self.failUnless (1+1==2, 'one plus one fails!')
-        self.failIf (1+1 != 2, 'one plus one fails again!')
-        self.failUnlessEqual (1+1, 2, 'more trouble with one plus one!')
+        self.assertTrue (1+1==2, 'one plus one fails!')
+        self.assertFalse (1+1 != 2, 'one plus one fails again!')
+        self.assertEqual (1+1, 2, 'more trouble with one plus one!')
 
 class ArithTestFail (unittest.TestCase):
     def runTest (self):
         """ Test addition and fail. """
-        self.failUnless (1+1==2, 'one plus one fails!')
-        self.failIf (1+1 != 2, 'one plus one fails again!')
-        self.failUnlessEqual (1+1, 2, 'more trouble with one plus one!')
-        self.failIfEqual (1+1, 2, 'expected failure here')
-        self.failIfEqual (1+1, 2, 'second failure')
+        self.assertTrue (1+1==2, 'one plus one fails!')
+        self.assertFalse (1+1 != 2, 'one plus one fails again!')
+        self.assertEqual (1+1, 2, 'more trouble with one plus one!')
+        self.assertEqual (1+1, 2, 'expected failure here')
+        self.assertNotEqual (1+1, 2, 'second failure')
 
 def suite_2():
     suite = unittest.TestSuite()

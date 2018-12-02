@@ -13,4 +13,10 @@ import re
 #
 # for root, dirs, files in os.walk('F:\\'):
 #     print_music(root, dirs, files)
-print(os.stat(os.getcwd()))
+s = ('xxx','abxxxxabc','xyx','abc','x.x','axa','axxxa','axxya')
+a = filter((lambda q:re.match(r"xxx",q)),s)
+print(*a)
+# def action(x):
+#     return lambda y:x+y
+# b = action(2)
+# print(b(22))
